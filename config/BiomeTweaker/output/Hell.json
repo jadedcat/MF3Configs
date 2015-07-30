@@ -30,6 +30,24 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 12
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityElephant",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityKomodo",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
@@ -88,12 +106,6 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityFlameWraith",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
       "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityHellRat",
       "Weight": 6,
       "Min Group Count": 1,
@@ -116,9 +128,21 @@
       "Weight": 6,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityFlameWraith",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntitySilverSkeleton",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
-  "Tweaked": false
+  "Tweaked": true
 }

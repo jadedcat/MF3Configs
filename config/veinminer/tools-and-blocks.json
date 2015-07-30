@@ -4,12 +4,7 @@
       "name": "Axe",
       "icon": "minecraft:diamond_axe",
       "toollist": [
-        "TConstruct:hatchet",
-        "minecraft:diamond_axe",
-        "minecraft:golden_axe",
-        "minecraft:iron_axe",
-        "minecraft:stone_axe",
-        "minecraft:wooden_axe"
+        "TConstruct:hatchet"
       ],
       "blocklist": [
         "ExtraTrees:log/0",
@@ -87,8 +82,6 @@
         "Natura:Rare Tree/1",
         "Natura:Rare Tree/2",
         "Natura:Rare Tree/3",
-        "Natura:floraleaves",
-        "Natura:floraleavesnocolor",
         "Natura:redwood/1",
         "Natura:tree/0",
         "Natura:tree/1",
@@ -98,8 +91,6 @@
         "Thaumcraft:blockMagicalLog/0",
         "Thaumcraft:blockMagicalLog/1",
         "minecraft:fence",
-        "minecraft:leaves",
-        "minecraft:leaves2",
         "minecraft:log",
         "minecraft:log2"
       ]
@@ -108,31 +99,26 @@
       "name": "Hoe",
       "icon": "minecraft:diamond_hoe",
       "toollist": [
-        "TConstruct:mattock",
-        "minecraft:diamond_hoe",
-        "minecraft:golden_hoe",
-        "minecraft:iron_hoe",
-        "minecraft:stone_hoe",
-        "minecraft:wooden_hoe"
+        "TConstruct:mattock"
       ],
       "blocklist": [
+        "Natura:Thornvines/0",
+        "minecraft:brown_mushroom/0",
+        "minecraft:cactus/0",
         "minecraft:carrots",
         "minecraft:melon_block",
         "minecraft:potatoes",
         "minecraft:pumpkin",
-        "minecraft:wheat"
+        "minecraft:red_mushroom/0",
+        "minecraft:wheat",
+        "minecraft:wool/0"
       ]
     },
     "pickaxe": {
       "name": "Pickaxe",
       "icon": "minecraft:diamond_pickaxe",
       "toollist": [
-        "TConstruct:pickaxe",
-        "minecraft:diamond_pickaxe",
-        "minecraft:golden_pickaxe",
-        "minecraft:iron_pickaxe",
-        "minecraft:stone_pickaxe",
-        "minecraft:wooden_pickaxe"
+        "TConstruct:pickaxe"
       ],
       "blocklist": [
         "Forestry:resources/0",
@@ -149,27 +135,9 @@
         "NetherOres:tile.netherores.ore.0/8",
         "NetherOres:tile.netherores.ore.0/9",
         "NetherOres:tile.netherores.ore.0/10",
-        "NetherOres:tile.netherores.ore.0/11",
-        "NetherOres:tile.netherores.ore.0/12",
-        "NetherOres:tile.netherores.ore.0/13",
-        "NetherOres:tile.netherores.ore.0/14",
-        "NetherOres:tile.netherores.ore.0/15",
         "NetherOres:tile.netherores.ore.1/0",
         "NetherOres:tile.netherores.ore.1/1",
-        "NetherOres:tile.netherores.ore.1/2",
-        "NetherOres:tile.netherores.ore.1/3",
-        "NetherOres:tile.netherores.ore.1/4",
-        "NetherOres:tile.netherores.ore.1/5",
-        "NetherOres:tile.netherores.ore.1/6",
-        "NetherOres:tile.netherores.ore.1/7",
-        "NetherOres:tile.netherores.ore.1/8",
-        "NetherOres:tile.netherores.ore.1/9",
-        "NetherOres:tile.netherores.ore.1/10",
-        "NetherOres:tile.netherores.ore.1/11",
-        "NetherOres:tile.netherores.ore.1/12",
-        "NetherOres:tile.netherores.ore.1/13",
         "NetherOres:tile.netherores.ore.1/14",
-        "NetherOres:tile.netherores.ore.1/15",
         "TConstruct:GravelOre/0",
         "TConstruct:GravelOre/1",
         "TConstruct:GravelOre/2",
@@ -203,6 +171,7 @@
         "ThermalFoundation:Ore/5",
         "ThermalFoundation:Ore/6",
         "minecraft:coal_ore",
+        "minecraft:cobblestone",
         "minecraft:cobblestone_wall",
         "minecraft:diamond_ore",
         "minecraft:emerald_ore",
@@ -211,18 +180,24 @@
         "minecraft:iron_ore",
         "minecraft:lapis_ore",
         "minecraft:lit_redstone_ore",
+        "minecraft:monster_egg",
         "minecraft:mossy_cobblestone",
         "minecraft:nether_brick_fence",
+        "minecraft:netherrack",
         "minecraft:obsidian",
         "minecraft:quartz_ore",
-        "minecraft:redstone_ore"
+        "minecraft:redstone_ore",
+        "minecraft:stone"
       ]
     },
     "shears": {
       "name": "Shears",
       "icon": "minecraft:shears",
       "toollist": [
-        "minecraft:shears"
+        "Botania:elementiumShears",
+        "Botania:manasteelShears",
+        "ExtraUtilities:shears",
+        "ThermalFoundation:tool.shearsInvar"
       ],
       "blocklist": [
         "Forestry:leaves",
@@ -244,16 +219,13 @@
       "icon": "minecraft:diamond_shovel",
       "toollist": [
         "TConstruct:mattock",
-        "TConstruct:shovel",
-        "minecraft:diamond_shovel",
-        "minecraft:golden_shovel",
-        "minecraft:iron_shovel",
-        "minecraft:stone_shovel",
-        "minecraft:wooden_shovel"
+        "TConstruct:shovel"
       ],
       "blocklist": [
         "minecraft:clay",
-        "minecraft:gravel"
+        "minecraft:gravel",
+        "minecraft:sand/0",
+        "minecraft:sand/1"
       ]
     }
   }

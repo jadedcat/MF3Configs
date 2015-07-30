@@ -1,0 +1,33 @@
+{
+    "shardstones": {
+        "template": {"type": "cave", "generator": "stalactite", "genBody": "air", "minHeight": 3, "heightVariance": 4, "genSize": 0, "heightMod": 5, "sizeVariance": 2, "smooth": "false", "fat": "true"},
+        "block": [
+            {"name": "Thaumcraft:blockCustomOre:", "metadata": 1, "weight":20},
+			{"name": "Thaumcraft:blockCustomOre:", "metadata": 2, "weight":20},
+            {"name": "Thaumcraft:blockCustomOre:", "metadata": 3, "weight":20},
+			{"name": "Thaumcraft:blockCustomOre:", "metadata": 4, "weight":20},
+			{"name": "Thaumcraft:blockCustomOre:", "metadata": 5, "weight":10},
+			{"name": "Thaumcraft:blockCustomOre:", "metadata": 6, "weight":10},
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		},		
+		{"type": "dictionary",
+		"entry": "HILLS"
+		}	
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

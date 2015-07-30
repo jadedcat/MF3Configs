@@ -1,0 +1,176 @@
+{
+    
+    "mountaingold": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": true
+        },
+        "block": [
+            {
+                "name": "minecraft:gold_ore",
+                "metadata": 0,
+                "weight": 40
+            },
+            {
+                "name": "minecraft:redstone_ore",
+                "metadata": 0,
+                "weight": 25
+            },
+			{
+                "name": "denseores:block0",
+                "metadata": 1,
+                "weight": 5
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 5
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 6,
+                "weight": 5
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 40,
+        "minHeight": 64,
+        "veinHeight": 30,
+        "veinDiameter": 50,
+        "horizontalDensity": 15,
+        "verticalDensity": 15,
+        "chunkChance": 200,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary",
+                "entry": "HILLS"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "mountainironbase": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "minecraft:iron_ore",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 5
+            },
+			{
+                "name": "denseores:block0",
+                "metadata": 0,
+                "weight": 5
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 64,
+        "maxHeight": 90,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary",
+                "entry": "HILLS"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "mountainiron": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": true
+        },
+        "block": [
+            {
+                "name": "minecraft:iron_ore",
+                "metadata": 0,
+                "weight": 60
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 10
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 20
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 40,
+        "minHeight": 64,
+        "veinHeight": 30,
+        "veinDiameter": 50,
+        "horizontalDensity": 15,
+        "verticalDensity": 15,
+        "chunkChance": 100,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "MOUNTAIN"
+            },
+            {
+                "type": "dictionary",
+                "entry": "HILLS"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+   
+}

@@ -15,7 +15,7 @@ renderNameHeight = 0.0
 // 'Kweh'. The number set with this key will reduce the frequency to this number in 100.
 // Thus if it is set to 50 only every second 'Kweh' will be heared. If set to 1 only 
 // every 100th etc...
-livingSoundProbability = 100
+livingSoundProbability = 1
 
 // Mutation rates of planted and grown gysahl greens. There is a gysahlGreenMutationRate permille chance
 // the gysahl plant will mutate into a breeding gysahl. If the plant has mutated into
@@ -24,7 +24,7 @@ gysahlGreenMutationRate = 100
 gysahlLoverlyMutationRate = 100
 
 // value between 1 and 999, with 1 for very few wild gysahl and 999 very many.
-gysahlGreenWorldGenerationRate = 160
+gysahlGreenWorldGenerationRate = 60
 
 // Cool down phase between breeding
 breedingDelayFemale = 9000
@@ -48,7 +48,7 @@ penHealCauldronRange = 6
 wildCanDespawn = false
 
 // Whenever or not the Chocopedia can be found in dungeon, jungle and desert pyramid, stronghold and mine chests
-chocopediaInDungeons = true
+chocopediaInDungeons = false
 
 // add any name of the following list as comma separated values to
 // the spawnBiomeskey, to have Chocobos spawn in the

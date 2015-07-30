@@ -1,0 +1,174 @@
+{
+    "denseiron": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 0, "weight": 80},
+            {"name": "denseores;block0", "metadata": 1, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "DRY"
+		},
+		{"type": "dictionary",
+		"entry": "SWAMP"
+		},
+		{"type": "dictionary",
+		"entry": "SANDY"
+		},
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"densegold": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 1, "weight": 80},
+            {"name": "denseores;block0", "metadata": 2, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		},
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		},
+		{"type": "dictionary",
+		"entry": "SPOOKY"
+		}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+	"denseredstone": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 2, "weight": 80},
+            {"name": "denseores;block0", "metadata": 5, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		},
+		{"type": "dictionary",
+		"entry": "HOT"
+		},
+		{"type": "dictionary",
+		"entry": "SPOOKY"
+		}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+	"densediamond": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 0, "weight": 80},
+            {"name": "denseores;block0", "metadata": 3, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		},
+		{"type": "dictionary",
+		"entry": "WET"
+		},
+		{"type": "dictionary",
+		"entry": "SPOOKY"
+		}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+	"denseemerald": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 6, "weight": 80},
+            {"name": "denseores;block0", "metadata": 4, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		},
+		{"type": "dictionary",
+		"entry": "SWAMP"
+		},
+		{"type": "dictionary",
+		"entry": "SPOOKY"
+		}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+	"densecoal": {
+        "template": "uniform",
+        "block": [
+            {"name": "denseores;block0", "metadata": 6, "weight": 80},
+            {"name": "denseores;block0", "metadata": 5, "weight": 20}
+        ],
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MAGICAL"
+		},
+		{"type": "dictionary",
+		"entry": "PLAINS"
+		},
+		{"type": "dictionary",
+		"entry": "SPOOKY"
+		}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

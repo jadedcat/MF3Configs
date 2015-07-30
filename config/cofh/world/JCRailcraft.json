@@ -1,0 +1,29 @@
+{
+    "dirt": {
+        "template": {"type": "cave", "generator": "stalactite", "genBody": "air", "minHeight": 3, "heightVariance": 4, "genSize": 0, "heightMod": 5, "sizeVariance": 2, "smooth": "false", "fat": "true"},
+        "block": [
+            {"name": "Railcraft:tile.railcraft.cube:", "metadata": 7, "weight":60},
+            {"name": "Railcraft:tile.railcraft.cube", "metadata": 6, "weight":40}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		},		
+		{"type": "dictionary",
+		"entry": "HILLS"
+		}	
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
