@@ -1,0 +1,59 @@
+
+{
+  "ID": 207,
+  "Name": "WyvernBiome",
+  "Class": "drzhark.mocreatures.dimension.BiomeGenWyvernLair",
+  "Color": 0,
+  "Root Height": 0.3,
+  "Height Variation": 1.5,
+  "Top Block": "MoCreatures:MoCGrass",
+  "Filler Block": "MoCreatures:MoCDirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "minecraft:water",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "DRY",
+    "HILLS",
+    "SANDY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBunny",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityWyvern",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Tweaked": false
+}
