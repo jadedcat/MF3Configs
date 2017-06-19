@@ -1,3 +1,3 @@
 # This project has moved
 
-This project has been relocated to [JadedPacks/MF3Configs]()
+This project has been relocated [here](//github.com/JadedPacks/MF3Configs)
